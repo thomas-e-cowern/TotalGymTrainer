@@ -89,4 +89,5 @@ fastlane/test_output
 
 iOSInjectionProject/
 
+# xcuserstate
 TotalGymTrainer.xcodeproj/project.xcworkspace/xcuserdata/thomascowern.xcuserdatad/UserInterfaceState.xcuserstate
