@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2DC9322B711F5A007326DB /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DC9312B711F5A007326DB /* Symbols.swift */; };
 		4D4D7C1C2B4C2CBA00F0801B /* TotalGymTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D7C1B2B4C2CBA00F0801B /* TotalGymTrainerApp.swift */; };
 		4D4D7C1E2B4C2CBA00F0801B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D7C1D2B4C2CBA00F0801B /* ContentView.swift */; };
 		4D4D7C202B4C2CBC00F0801B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D7C1F2B4C2CBC00F0801B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D2DC9312B711F5A007326DB /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		4D4D7C182B4C2CBA00F0801B /* TotalGymTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotalGymTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4D7C1B2B4C2CBA00F0801B /* TotalGymTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalGymTrainerApp.swift; sourceTree = "<group>"; };
 		4D4D7C1D2B4C2CBA00F0801B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D2DC9302B711F44007326DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D2DC9312B711F5A007326DB /* Symbols.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4D4D7C0F2B4C2CBA00F0801B = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		4D4D7C1A2B4C2CBA00F0801B /* TotalGymTrainer */ = {
 			isa = PBXGroup;
 			children = (
+				4D2DC9302B711F44007326DB /* Resources */,
 				4D4D7C1B2B4C2CBA00F0801B /* TotalGymTrainerApp.swift */,
 				4D4D7C1D2B4C2CBA00F0801B /* ContentView.swift */,
 				4D4D7C1F2B4C2CBC00F0801B /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2DC9322B711F5A007326DB /* Symbols.swift in Sources */,
 				4D4D7C1E2B4C2CBA00F0801B /* ContentView.swift in Sources */,
 				4D4D7C1C2B4C2CBA00F0801B /* TotalGymTrainerApp.swift in Sources */,
 			);
