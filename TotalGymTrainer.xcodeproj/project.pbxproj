@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D2DC9322B711F5A007326DB /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DC9312B711F5A007326DB /* Symbols.swift */; };
 		4D2DC9342B7129BE007326DB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DC9332B7129BE007326DB /* Theme.swift */; };
+		4D2DC93E2B713026007326DB /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DC93D2B713026007326DB /* Workout.swift */; };
 		4D4D7C1C2B4C2CBA00F0801B /* TotalGymTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D7C1B2B4C2CBA00F0801B /* TotalGymTrainerApp.swift */; };
 		4D4D7C1E2B4C2CBA00F0801B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D7C1D2B4C2CBA00F0801B /* ContentView.swift */; };
 		4D4D7C202B4C2CBC00F0801B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D7C1F2B4C2CBC00F0801B /* Assets.xcassets */; };
@@ -19,6 +20,8 @@
 		4D2DC9312B711F5A007326DB /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		4D2DC9332B7129BE007326DB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		4D2DC93A2B712E8C007326DB /* Attributions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Attributions.md; sourceTree = "<group>"; };
+		4D2DC93B2B712F18007326DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4D2DC93D2B713026007326DB /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		4D4D7C182B4C2CBA00F0801B /* TotalGymTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotalGymTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4D7C1B2B4C2CBA00F0801B /* TotalGymTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalGymTrainerApp.swift; sourceTree = "<group>"; };
 		4D4D7C1D2B4C2CBA00F0801B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +84,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		4D2DC93C2B713007007326DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D2DC93D2B713026007326DB /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4D4D7C0F2B4C2CBA00F0801B = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +111,8 @@
 		4D4D7C1A2B4C2CBA00F0801B /* TotalGymTrainer */ = {
 			isa = PBXGroup;
 			children = (
+				4D2DC93B2B712F18007326DB /* Info.plist */,
+				4D2DC93C2B713007007326DB /* Models */,
 				4D2DC9352B712A5E007326DB /* Home */,
 				4D2DC9362B712A63007326DB /* Logs */,
 				4D2DC9372B712A6B007326DB /* Workouts */,
@@ -196,6 +209,7 @@
 				4D2DC9322B711F5A007326DB /* Symbols.swift in Sources */,
 				4D2DC9342B7129BE007326DB /* Theme.swift in Sources */,
 				4D4D7C1E2B4C2CBA00F0801B /* ContentView.swift in Sources */,
+				4D2DC93E2B713026007326DB /* Workout.swift in Sources */,
 				4D4D7C1C2B4C2CBA00F0801B /* TotalGymTrainerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,11 +347,14 @@
 				DEVELOPMENT_TEAM = 56F54J4H3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TotalGymTrainer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,11 +379,14 @@
 				DEVELOPMENT_TEAM = 56F54J4H3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TotalGymTrainer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
